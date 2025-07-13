@@ -36,26 +36,6 @@ body {
     background-color: #301b28;
 }
 
-.toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-    cursor: pointer;
-
-}
-
-.toggle div {
-    background: #ddc5a2;
-    width: 80%;
-    height: 2px;
-    margin: 3px 0;
-
-}
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
