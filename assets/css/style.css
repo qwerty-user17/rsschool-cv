@@ -140,51 +140,14 @@ body {
     flex-direction: column;
     align-items: center;
   }  
-   .toggle {
-        display: flex;
-    }
-
-    .nav {
-        display: none;
-    }
-
-   .nav.collapsed {
-    position: absolute;
-    left: 0;
-    top: 0;
    
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    min-height: 525px;
-    flex-direction: column;
-    background-color: #301b28;
-  }
-  .nav-list.collapsed {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    padding-top: 50px;
-  }
+
 
     .section-education {
         border-bottom: 1px solid #523634;
     }
 
-    .toggle.collapsed .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
 
-.toggle.collapsed .line2 {
-  opacity: 0;
-}
-
-.toggle.collapsed .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
 
 }
 
