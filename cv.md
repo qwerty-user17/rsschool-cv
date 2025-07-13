@@ -1,5 +1,0 @@
-#name
-
-#contacts
-
-#my exp 
