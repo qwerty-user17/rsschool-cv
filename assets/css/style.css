@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main a {
+    text-decoration: none;
+    color: #b6452c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #ddc5a2;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ddc5a2;
+    color: #301b28;
+    
+}
+
+.header {
+    background-color: #301b28;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+   color: #ddc5a2;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+
+.nav-link:hover {
+      color: #847661b0;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+   margin: 0;
+   min-height: 50px;
+
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #523634;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #523a399c;
+    
+}
+
+.section-profile-logo {
+        width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+   
+    transition: .3s;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-education, .section-english {
+    border-bottom: 0;
+}
+
+.footer {
+    background-color: #301b28;
+    padding: 19px;
+}
+
+.footer-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #ddc5a2;
+}
+
+.rsschool {
+    background-color: #301b28;
+    width: 250px;
+    height: 100px;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-VariableFont_wght.ttf")
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+
+  .section-profile {
+    flex-direction: column;
+    align-items: center;
+  }  
+   
+
+
+    .section-education {
+        border-bottom: 1px solid #523634;
+    }
+
+
+
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 30px;
+    }
+   
+}
